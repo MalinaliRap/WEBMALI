@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="author" content="Elton Almeida">
+<meta name="description" content="Aula 1- Imagem">
+<link rel="stylesheet" href="css/styles.css">
+<title>Aula 1 - Formulário</title>
+</head>
+
+<body>
+	<header>
+	<hgroup id="titulo">
+		<h1>AULA 1</h1>
+		<h2>Formulário</h2>
+	</hgroup>
+	<nav>
+    	<a href="index.html">Home</a>
+        <a href="aula1_video.html">Video</a>
+        <a href="aula1_imagem.html" >Imagem</a>
+        <a href="aula1_tabela.html">Tabela</a>
+        <a href="aula1_formulario.html">Formulário</a>
+        <a href="aula1_artigo.html">Artigo</a> 
+        
+    </nav>
+    </header>
+	<form action='' method="get">
+		<div class='form-group'>
+			Nome: <input type="text" name="aluno">
+		</div>
+		<div class='form-group'>
+			Senha: <input type="password" name="senha">
+		</div>
+		<div class='form-group'>
+			Cidade: <select name="cidade">
+							<option value="1">Ponta Grossa</option>
+							<option value="2">Curitiba</option>
+							<option value="3">Carambeí</option>
+						</select>
+		</div>
+		<div class='form-group'>			
+			Sexo: <input type="radio" name="sex" value="male" checked> Masculino 
+				  <input type="radio" name="sex" value="female"> Feminino <br>
+	    </div>
+		<div class='form-group'>
+			Veículo: <input type="checkbox" name="vehicle1" value="Bike"> Bike 
+					 <input type="checkbox" name="vehicle2" value="Car"> Carro
+        </div>
+		<div class='form-group'>
+			Frequência na semana: 
+			<input type="number" name="frequencia" min="1" max="5"> <br>    
+        </div>
+		<div class='form-group'>
+			Nascimento: <input type="date" name="nascimento">
+		</div>
+		<div class='form-group'>
+			Nota: <input type="range" name="nota" min="0" max="10"> <br>
+		</div>
+		<div class='form-submit'>
+			<input type="submit" value="Enviar">
+		</div>
+	</form>
+	<footer>
+    	Desenvolvido no curso de Web Design da <a href="www.softgraf.com">Softgraf</a>
+    </footer>  
+</body>
+</html>

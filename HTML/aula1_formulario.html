@@ -1,0 +1,47 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="author" content="Elton Almeida">
+<meta name="description" content="Aula 1- Formulário">
+<title>Aula 1 - Formulário</title>
+</head>
+
+<body>
+	<header>
+	<nav>
+    	<a href="aula1.html">Home</a>
+        <a href="aula1_video.html">Video</a> |
+        <a href="aula1_imagem.html" >Imagem</a> |
+        <a href="aula1_tabela.html">Tabela</a> |
+        <a href="aula1_formulario.html">Formulário</a> |
+        <a href="aula1_artigo.html">Artigo</a> 
+        
+    </nav>
+    </header>
+    <hr>
+    <section>
+        <form action='' method="get">
+        	Nome: <input type="text" name="nome">
+            Senha: <input type="password" name="senha"><br>
+            Cidade: <select name="cidade">
+            			<option value="Ponta Grossa">Ponta Grossa</option>
+                		<option value="Curitiba">Curitiba</option>
+                        <option value="Carambeí">Carambeí</option>
+                    </select>
+            Sexo: <input type="radio" name="sex" value="male" checked> Masculino 
+                  <input type="radio" name="sex" value="female"> Feminino <br>
+            Veículo: <input type="checkbox" name="vehicle1" value="Bike"> Bike <input type="checkbox" name="vehicle2" value="Car"> Carro
+            Frequência na semana: <input type="number" name="frequencia" min="1" max="5"> <br>
+            Nascimento: <input type="date" name="nascimento">
+            Nota: <input type="range" name="nota" min="0" max="10"> <br>
+            <input type="submit" value="Enviar">    
+            
+        </form>
+    </section>
+    <hr>
+    <footer>
+    	Desenvolvido no curso de Web Design da <a href="www.softgraf.com">Softgraf</a>
+    </footer> 
+</body>
+</html>

@@ -1,0 +1,156 @@
+body{
+	margin: 0;
+}
+
+header h1, header h2{
+	display: inline-block;
+	margin: 0;
+}
+
+header h2{
+	margin-left: 20px;
+}
+
+#titulo {
+    text-align: center;
+	background-color: #314374;
+	color: #fff;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+nav{
+	text-align: center;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	border-bottom: 1px solid #000;
+	border-top: 1px solid #000;
+}
+
+nav a{
+	text-decoration: none;
+	border-left: 1px solid #000;
+	padding-left: 10px;
+	padding-right: 10px;
+	color: #000;
+}
+
+nav a:first-child{
+	border-left: 0;
+}
+
+nav a:hover{
+	color: #999;
+}
+
+footer{
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	background-color: #314374;
+	border-top: 1px solid #000;
+	text-align: center;
+	color: #fff;
+	height: 50px;
+	line-height: 50px;
+}
+
+footer a{
+	color: #fff;
+}
+
+.error{
+	border: 1px solid red;
+}
+/*
+.link{
+	color: blue !important;
+}*/
+/* video */
+.video-section{
+	width:50%;
+	display: block;
+	float: left;
+	text-align: center;
+	padding-top: 20px;
+}
+
+.video-section-title{
+	font-size: 24px;
+	margin-bottom: 15px;
+}
+/* fim video */
+
+
+/* imagem */
+figure{
+	text-align: center;
+}
+#imagem-demonstracao{
+	border: 1px dashed #000;
+	margin: 0 auto;
+	display: block;
+}
+/* fim imagem */
+
+/* tabela */
+#tabela-demonstracao{
+	margin: 0 auto;
+	margin-top: 20px;
+	font-size: 20px;
+	border-spacing: 0;
+}
+
+#tabela-demonstracao tr,
+#tabela-demonstracao th, #tabela-demonstracao td{
+	border: 1px solid #999;
+	padding: 5px;
+}
+
+#tabela-demonstracao thead{
+	background-color: #ccc;
+}
+/* fim tabela */
+
+
+/* formulario */
+form{
+	width: 60%;
+	margin: 0 auto;
+	margin-top: 20px;
+	font-size: 18px;
+	overflow: auto;
+    background-color: #f0f0f0;
+    border: 1px dashed #000;
+}
+.form-group{
+	float: left;
+	width: calc(50% - 21px);
+	padding: 10px;
+	height: 30px;
+}
+.form-group:nth-child(odd){
+	border-right: 1px solid #000;
+}
+
+.form-group [type='text'],
+.form-group [type='password'],
+.form-group [type='number'],
+.form-group [type='date'],
+.form-group [type='range'],
+.form-group select{
+	float: right;
+	padding: 5px;
+}
+.form-submit{
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	float: left;
+	width: 100%;
+	border-top: 1px solid #000;
+}
+/* fim formulario */
+
+
+
